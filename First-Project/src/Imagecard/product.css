@@ -1,0 +1,44 @@
+.margin{
+    margin: 2em;
+
+}
+.padding{
+    padding-top: 2em;
+}
+.prod1{
+    position: absolute;
+    padding-left:5em;
+    padding-top:3em;
+}
+.prod1 h3{
+    font-size: 3em;
+}
+.prod1 button{
+    margin-top: 1em;
+    padding: 0.2em 1em;
+    border: none;
+    &:hover{
+        background-color: aquamarine;
+       /*  color: brown; */
+        border-radius: 0.5em;
+    }
+}
+.prod2{
+    position: absolute;
+    padding-left:2.5em;
+    padding-top:3em;
+
+}
+.prod2 h3{
+    font-size: 3em;
+}
+.prod2 button{
+    margin-top: 1em;
+    padding: 0.2em 1em;
+    border: none;
+    &:hover{
+        background-color: aquamarine;
+       /*  color: brown; */
+        border-radius: 0.5em;
+    }
+}

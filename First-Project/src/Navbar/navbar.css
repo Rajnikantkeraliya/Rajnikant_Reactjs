@@ -1,0 +1,26 @@
+.logo img{
+    width: 60%;
+}
+.menu ul li{
+    display: inline-block;
+    margin:0 0.5em;
+}
+.menu ul{
+    margin: 0;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0.2em 1em;
+    &:hover{
+        /* border: 0.01em solid black; */
+        color: red;
+        padding: 0.2em 1em;
+        border-radius: 0.5em;
+        background-color: rgb(251, 255, 196)
+    }
+
+}
+.padding{
+    padding-bottom: 0.8em;
+}

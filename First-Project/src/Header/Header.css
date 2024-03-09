@@ -1,0 +1,22 @@
+.link ul li {
+        list-style: none;
+
+    }
+.link ul li a{
+     text-decoration: none;
+
+}
+.header{
+    background-color: rgb(232, 232, 232);
+}
+.padding{
+    padding: 0.5em 0;
+}
+.text h6{
+    margin: 0;
+    padding-left: 6em;
+    margin-left: 6em;
+}
+.link ul{
+    margin: 0;
+}
