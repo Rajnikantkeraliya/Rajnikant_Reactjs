@@ -1,0 +1,10 @@
+.card {
+    width: 20vw;
+}
+
+.container_list2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
