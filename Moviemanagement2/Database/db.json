@@ -1,28 +1,28 @@
 {
   "movies": [
     {
-      "title": "Movie 3",
-      "views": "100",
-      "image": "https://www.gstatic.com/webp/gallery3/1.png",
+      "title": "Movie 2",
+      "views": "98",
+      "image": "https://www.gstatic.com/webp/gallery3/2.png",
       "id": "4"
     },
     {
       "title": "Movie 4",
       "views": "400",
-      "image": "https://www.gstatic.com/webp/gallery3/3.png",
+      "image": "https://www.gstatic.com/webp/gallery3/2.png",
       "id": "5"
     },
     {
-      "id": "6",
       "title": "Movie 6",
       "views": 500,
-      "image": "https://www.gstatic.com/webp/gallery3/3.png"
+      "image": "https://www.gstatic.com/webp/gallery3/2.png",
+      "id": "6"
     },
     {
-      "id": "7",
       "title": "Movie 4",
       "views": 500,
-      "image": "https://www.gstatic.com/webp/gallery3/3.png"
+      "image": "https://www.gstatic.com/webp/gallery3/2.png",
+      "id": "7"
     }
   ]
 }

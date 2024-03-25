@@ -3,7 +3,7 @@ import './EditMovieform.css'
 import { CallApi } from '../../../Util'
 
 
-export default function EditMovieForm({ moviedata, setCurrentState }) {
+export default function EditMovieForm({ moviedata, setcurrentstate }) {
 
     const [title, settitle] = useState(moviedata.title)
     const [views, setviews] = useState(moviedata.views)
@@ -50,7 +50,7 @@ export default function EditMovieForm({ moviedata, setCurrentState }) {
             </div>
 
             <button className="btn btn-danger m-2" onClick={editmoviedatatoserver}>Edit</button>
-            <button className="btn btn-warning m-2" onClick={() => setCurrentState({ mode: "LIST" })}>Back</button>
+            <button className="btn btn-warning m-2" onClick={() => setcurrentstate({ mode: "LIST" })}>Back</button>
 
             {taskstatus === true && <div class="alert alert-success" role="alert">
                 Data Updated !!
