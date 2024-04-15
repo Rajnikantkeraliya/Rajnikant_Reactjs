@@ -1,0 +1,14 @@
+.buttoncontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px 0;
+
+}
+
+.button {
+    width: 45px;
+    height: 45px;
+    margin: 0.25em;
+    font-size: 15px;
+}

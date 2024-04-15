@@ -1,0 +1,67 @@
+header {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.align {
+    align-items: center;
+}
+
+header .headersearch {
+    width: 100%;
+    height: 60px;
+    border: 2px solid #bce3c9;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+header .headersearch .selectdrop {
+    width: 180px;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+}
+
+header .headersearch .selectdrop:after {
+    content: '';
+    width: 1px;
+    height: 30px;
+    background: rgba(20, 20, 20, 2);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+header .headersearch .search {
+    width: 80%;
+    padding-left: 25px;
+    position: relative;
+}
+
+header .headersearch .search input {
+    width: 100%;
+    height: 50px;
+    border: 0px;
+    outline: none !important;
+    font-size: 16px;
+}
+
+header .headersearch .search .searchicon {
+    position: absolute;
+    top: 17.5px;
+    right: 5px;
+    opacity: 0.5;
+    font-size: 19px !important;
+}
+
+header .headertabs {
+    padding-left: 20px;
+}
+
+header .compare {
+    font-size: 16px;
+    padding: 0 20px;
+    color: #3bb77e;
+}

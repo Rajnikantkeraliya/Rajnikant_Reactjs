@@ -1,25 +1,23 @@
-import usefetch from "./usefetch";
+import './Mylist.css'
+import "bootstrap/dist/css/bootstrap.min.css"
+export default function MyList({ data }) {
 
-export default function Mylist() {
+    console.log(data)
 
-
-    const commentdata = usefetch(
-        {
-            endpoint: "comments",
-        })
-
-
+    if (!data) {
+        return <div>No data available</div>;
+    }
 
     return (
 
-        <div>
-            {commentdata == null && "Loading....."}
-            {commentdata != null && commentdata.map((item) => {
-                return <h1>{item.name}</h1>
-            })}
+        <div className="card card_container">
+            <img className="card-img-top" src={data.image} alt="Card image cap" />
+            <div className="card-body">
+                <h5 className="card-title">Title: {data.title}</h5>
+                <p className="card-text">Views: {data.views}</p>
+                <a href="#" className="btn btn-primary">Go somewhere</a>
+            </div>
         </div>
 
-
-
-    )
+    );
 }

@@ -10,6 +10,7 @@ export default function Movielist({ setcurrentstate }) {
     const Loaddata = (moviedata) => {
         if (moviedata) {
             setAllMovie(moviedata)
+            console.log(setAllMovie)
         }
     }
 

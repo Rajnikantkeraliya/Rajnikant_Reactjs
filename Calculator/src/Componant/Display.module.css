@@ -1,0 +1,10 @@
+.display {
+    margin: 1em;
+}
+
+.display input {
+    height: 20px;
+    width: 96%;
+    /* padding: 10px 39px; */
+
+}

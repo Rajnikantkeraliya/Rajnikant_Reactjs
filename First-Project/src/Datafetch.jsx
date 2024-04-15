@@ -3,7 +3,9 @@ export default function Datafetch() {
 
 
 
-    return ()
+    return (
+        <div></div>
+    )
 
 
 }
