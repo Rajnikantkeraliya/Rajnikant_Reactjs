@@ -1,0 +1,28 @@
+{
+  "Movie": [
+    {
+      "title": "Movie-10",
+      "views": "5",
+      "image": "https://www.gstatic.com/webp/gallery/5.jpg",
+      "id": "9"
+    },
+    {
+      "title": "Movie-10",
+      "views": "5",
+      "image": "https://www.gstatic.com/webp/gallery/5.jpg",
+      "id": "9"
+    },
+    {
+      "title": "Movie-10",
+      "views": "5",
+      "image": "https://www.gstatic.com/webp/gallery/5.jpg",
+      "id": "9"
+    },
+    {
+      "id": "fa41",
+      "title": "Patel",
+      "views": "98",
+      "image": "https://www.gstatic.com/webp/gallery/5.jpg"
+    }
+  ]
+}

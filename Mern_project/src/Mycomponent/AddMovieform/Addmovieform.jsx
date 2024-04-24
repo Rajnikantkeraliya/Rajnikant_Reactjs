@@ -20,14 +20,16 @@ export default function Addmovieform({ setCurrentState }) {
             CallApi({
                 Method: 'POST',
                 requestbody: newMovieData,
-                callbackfunction: (data) => {
-                    if (data) {
+                callbackfunction: (data, error) => {
+                    if (error) {
+                        console.error('Error adding data:', error);
+                        setTaskStatus(false);
+                    } else {
+                        console.log('Data added successfully:', data);
                         setTaskStatus(true);
                         setTitle('');
                         setViews('');
                         setImage('');
-                    } else {
-                        setTaskStatus(false);
                     }
                 }
             });
@@ -36,6 +38,8 @@ export default function Addmovieform({ setCurrentState }) {
             alert('Please fill all fields.');
         }
     };
+
+
 
     return (
         <div className="container m-4 p-4 container_add">

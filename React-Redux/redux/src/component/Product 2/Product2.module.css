@@ -1,0 +1,11 @@
+.cart_width {
+    width: 20%;
+    border: 1px solid;
+    margin: 2rem;
+    border-radius: 0.5em;
+
+}
+
+.cart_width img {
+    width: 100%;
+}

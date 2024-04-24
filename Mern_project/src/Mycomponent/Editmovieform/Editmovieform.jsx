@@ -21,7 +21,7 @@ export default function Editmovieform({ moviedata, setCurrentState }) {
         }
 
         CallApi({
-            movieId: "661a261a075727fb8051f38e",
+            // movieId: "661a261a075727fb8051f38e",
             Method: "PUT",
             requestbody: updatedData,
             callbackfunction: function (data) {

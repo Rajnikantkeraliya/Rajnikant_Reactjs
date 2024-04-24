@@ -14,7 +14,7 @@ const CallApi = ({ Method, requestbody, callbackfunction, movieId } = {}) => {
         option.body = JSON.stringify(requestbody)
     }
 
-    fetch(Backendserverdata + (movieId ? movieId : ""), option).then(rawdata => rawdata.json()).then(json => callbackfunction(json))
+    
 
 
 }
